@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -18,10 +20,10 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
           channel: 'stable'
+          cache: true
 
-      - name: Flutter pub get
+      - name: Install dependencies
         run: flutter pub get
 
       - name: Build Flutter Web (project page base href)
@@ -34,5 +36,7 @@ jobs:
           publish_branch: gh-pages
           publish_dir: build/web
           force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
 
 
