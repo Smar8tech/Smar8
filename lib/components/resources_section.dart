@@ -59,7 +59,7 @@ class ResourcesSection extends StatelessWidget {
               child: Container(
                 height: 400,
                 color: Colors.grey[300],
-                child: Image.network(
+                child: Image.asset(
                   'images/resources.jpg',
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {
@@ -160,7 +160,7 @@ class ResourcesSection extends StatelessWidget {
               height: 250,
               width: double.infinity,
               color: Colors.grey[300],
-              child: Image.network(
+              child: Image.asset(
                 'images/resources.jpg',
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {

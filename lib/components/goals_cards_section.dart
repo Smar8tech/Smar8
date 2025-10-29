@@ -87,7 +87,7 @@ class GoalsCardsSection extends StatelessWidget {
                 height: 200,
                 width: double.infinity,
                 color: Colors.grey[300],
-                child: Image.network(
+                child: Image.asset(
                   card['image'],
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {

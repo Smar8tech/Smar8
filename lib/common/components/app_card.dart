@@ -129,7 +129,7 @@ class AppCard extends StatelessWidget {
         width: double.infinity,
         color: Colors.grey[300],
         child: imagePath != null
-            ? Image.network(
+            ? Image.asset(
                 imagePath!,
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {

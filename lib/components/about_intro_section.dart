@@ -81,7 +81,7 @@ class AboutIntroSection extends StatelessWidget {
             ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: Image.network(
+              child: Image.asset(
                 'images/about-team.jpg',
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {
@@ -143,7 +143,7 @@ class AboutIntroSection extends StatelessWidget {
             ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: Image.network(
+              child: Image.asset(
                 'images/about-team.jpg',
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {

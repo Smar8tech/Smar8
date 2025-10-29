@@ -59,7 +59,7 @@ class _ContentSliderState extends State<ContentSlider> {
                 child: Stack(
                   children: [
                     // Background image with error handling
-                    Image.network(
+                    Image.asset(
                       slides[_currentSlide]['backgroundImage'] as String,
                       fit: BoxFit.cover,
                       width: double.infinity,

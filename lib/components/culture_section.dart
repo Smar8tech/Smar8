@@ -160,7 +160,7 @@ class CultureSection extends StatelessWidget {
             ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: Image.network(
+              child: Image.asset(
                 'images/culture.jpg',
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {
