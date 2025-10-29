@@ -1,0 +1,11 @@
+{
+    "name": "SMAR8 SOLUTIONS",
+    "short_name": "SMAR8",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Smart Asset Manager for comprehensive property and tenant management solutions.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+}
