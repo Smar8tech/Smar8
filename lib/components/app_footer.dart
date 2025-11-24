@@ -362,6 +362,7 @@ class AppFooter extends StatelessWidget {
     return [
       'Terms & Conditions',
       'Privacy Notice',
+      'Refund Policy',
       'Disclaimer',
       'Data Protection',
       'Intellectual Property',

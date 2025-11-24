@@ -16,6 +16,7 @@ import 'pages/privacy/terms_conditions_page.dart';
 import 'pages/privacy/user_agreement_page.dart';
 import 'pages/privacy/cookie_notice_page.dart';
 import 'pages/privacy/manage_cookies_policy_page.dart';
+import 'pages/privacy/refund_policy_page.dart';
 import 'pages/contact_us_page.dart';
 
 void main() {
@@ -97,6 +98,8 @@ class _WebHomePageState extends State<WebHomePage> {
           return const CookieNoticePage();
         case 'Manage Cookies':
           return const ManageCookiesPolicyPage();
+        case 'Refund Policy':
+          return const RefundPolicyPage();
         case 'Contact Us':
           return const ContactUsPage();
         default:
